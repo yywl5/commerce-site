@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>电商网站</title>
+    <meta name="description" content="网上购物商城" />
+    <meta name="keywords" content="网上购物,网上商城,家电,手机,电脑,服装." />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <main>
+      <!--顶部导航栏.-->
+      <div class="top-nav">
+        <div class="w clearfix">
+          <!--用固定的样式和margin来实现居-->
+          <div class="login">
+            <a href="login.html" class="login_button">您好,请登录.</a>
+            <a href="" class="register_button">免费注册.</a>
+          </div>
+          <ul class="nav-list">
+            <li class="link">我的订单</li>
+            <li class="link">购物车</li>
+            <li class="link">收藏夹</li>
+            <li class="link">联系客服</li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-nav w">
+          <ul class="clearfix" id="bott">
+            <li><a href="index.html">首页</a></li>
+            <li>
+              <a href="#">所有商品</a>
+              <div class="sList">
+                <div class="wrapper clearfix">
+                  <a href="paint.html">
+                    <dl>
+                      <dt><img src="img/nav1.jpg" /></dt>
+                      <dd>浓情欧式</dd>
+                    </dl>
+                  </a>
+                  <a href="paint.html">
+                    <dl>
+                      <dt><img src="img/nav2.jpg" /></dt>
+                      <dd>浪漫美式</dd>
+                    </dl>
+                  </a>
+                  <a href="paint.html">
+                    <dl>
+                      <dt><img src="img/nav3.jpg" /></dt>
+                      <dd>雅致中式</dd>
+                    </dl>
+                  </a>
+                  <a href="paint.html">
+                    <dl>
+                      <dt><img src="img/nav6.jpg" /></dt>
+                      <dd>简约现代</dd>
+                    </dl>
+                  </a>
+                  <a href="paint.html">
+                    <dl>
+                      <dt><img src="img/nav7.jpg" /></dt>
+                      <dd>创意装饰</dd>
+                    </dl>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="flowerDer.html">装饰摆件</a>
+              <div class="sList2">
+                <div class="clearfix">
+                  <a href="proList.html">干花花艺</a>
+                  <a href="vase_proList.html">花瓶花器</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="decoration.html">布艺软饰</a>
+              <div class="sList2">
+                <div class="clearfix">
+                  <a href="zbproList.html">桌布罩件</a>
+                  <a href="bzproList.html">抱枕靠垫</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="paint.html">墙式壁挂</a></li>
+            <li><a href="perfume.html">蜡艺香薰</a></li>
+            <li><a href="idea.html">创意家居</a></li>
+          </ul>
+        </div>
+      <!--顶部导航栏.-->
+      <!--搜索框下拉文字-->
+      <div class="searchWrap">
+        <div class="w">
+          <a href="#" class="logo">星包客</a>
+          <div class="search-box clearfix">
+            <input
+              class="search-input"
+              id="searchInput"
+              placeholder="请输入商品名称."
+              type="text"
+            />
+            <button class="search-btn">搜索</button>
+            <ul id="search-suggest" class="search-suggest">
+              <!--     <li>内容一</li>    -->
+              <!--    <li>内容二</li>-->
+              <!--     <li>内容三</li>-->
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--搜索框下拉文字-->
+      <!--商品分类轮廓图-->
+      <div class="w menu clearfix">
+        <div class="aside-nav">
+          <ul class="nav-list">
+            <li class="list-item">
+              <a href="#" class="item-href"
+                ><span class="iconfont icon-shouji"></span>家用电器</a
+              >
+              <div class="item-menu">
+                <div class="subcate">
+                  <dl class="subcate_item">
+                    <dt class="subcate_title">
+                      <a href="#" class="subcate_link"
+                        >电视分类<i class="subcate_title_arrow">></i></a
+                      >
+                    </dt>
+                    <dd class="subcate_con clearfix">
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                    </dd>
+                  </dl>
+                  <dl class="subcate_item">
+                    <dt class="subcate_title">
+                      <a href="#" class="subcate_link"
+                        >电视分类2<i class="subcate_title_arrow">></i></a
+                      >
+                    </dt>
+                    <dd class="subcate_con clearfix">
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                    </dd>
+                  </dl>
+                  <dl class="subcate_item">
+                    <dt class="subcate_title">
+                      <a href="#" class="subcate_link"
+                        >电视分类3<i class="subcate_title_arrow">></i></a
+                      >
+                    </dt>
+                    <dd class="subcate_con clearfix">
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="guessLike">
+                  <h3>猜你喜欢.</h3>
+                  <ul class="like_list clearfix">
+                    <li class="like_item">
+                      <a href="#" class="like_lk">
+                        <img src="img/good.jpg" alt="" />
+                        <p>分布式无限路由器.</p>
+                      </a>
+                    </li>
+                    <li class="like_item">
+                      <a href="#" class="like_lk">
+                        <img src="img/good.jpg" alt="" />
+                        <p>分布式无限路由器.</p>
+                      </a>
+                    </li>
+                    <li class="like_item">
+                      <a href="#" class="like_lk">
+                        <img src="img/good.jpg" alt="" />
+                        <p>分布式无限路由器.</p>
+                      </a>
+                    </li>
+                    <li class="like_item">
+                      <a href="#" class="like_lk">
+                        <img src="img/good.jpg" alt="" />
+                        <p>分布式无限路由器.</p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="list-item">
+              <a href="#" class="item-href">家用电器</a>
+              <div class="item-menu">
+                <div class="subcate">
+                  <dl class="subcate_item">
+                    <dt class="subcate_title">
+                      <a href="#" class="subcate_link"
+                        >电视分类<i class="subcate_title_arrow">></i></a
+                      >
+                    </dt>
+                    <dd class="subcate_con clearfix">
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                    </dd>
+                  </dl>
+                  <dl class="subcate_item">
+                    <dt class="subcate_title">
+                      <a href="#" class="subcate_link"
+                        >电视分类2<i class="subcate_title_arrow">></i></a
+                      >
+                    </dt>
+                    <dd class="subcate_con clearfix">
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                    </dd>
+                  </dl>
+                  <dl class="subcate_item">
+                    <dt class="subcate_title">
+                      <a href="#" class="subcate_link"
+                        >电视分类3<i class="subcate_title_arrow">></i></a
+                      >
+                    </dt>
+                    <dd class="subcate_con clearfix">
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                      <a href="#" class="subcate_con_lk">超薄电视</a>
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+            </li>
+            <li class="list-item">
+              <a href="#" class="item-href">家用电器</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="item-href">家用电器</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="item-href">家用电器</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="item-href">家用电器</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="item-href">家用电器</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="item-href">家用电器</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="item-href">家用电器</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="item-href">家用电器</a>
+            </li>
+          </ul>
+        </div>
+        <!--轮播图-->
+        <div class="banner-wrap">
+          <div class="banner">
+            <ul id="swiper">
+              <li class="swiper-item">
+                <a href="#"><img src="img/erji.jpg" alt="" /></a>
+              </li>
+              <li class="swiper-item">
+                <a href="#"><img src="img/sanxing.jpg" alt="" /></a>
+              </li>
+              <li class="swiper-item">
+                <a href="#"><img src="img/kongtiao.jpg" alt="" /></a>
+              </li>
+            </ul>
+            <div class="prev swiper-arrow"><</div>
+            <div class="next swiper-arrow">></div>
+            <div class="indicators">
+              <div class="on indicator" data-index="0"></div>
+              <div class="indicator" data-index="1"></div>
+              <div class="on indicator" data-index="2"></div>
+            </div>
+          </div>
+        </div>
+        <!--轮播图-->
+      </div>
+      <!--商品分类轮廓图-->
+      <!--秒杀专区-->
+      <div class="miaosha w clearfix">
+        <div class="miaosha-time">
+          <div class="miaosha_tit">秒杀抢购</div>
+          <div class="ms_desc">本场距离结束还剩</div>
+          <div class="countdown clearfix">
+            <div class="cd_item cd_hour">01</div>
+            <div class="cd_item cd_minute">39</div>
+            <div class="cd_item cd_second">40</div>
+          </div>
+        </div>
+        <div id="miaoshaList" class="miaosha-list">
+          <!--          <div class="ms-item">
+                       <a href="#" class="ms-item-lk">
+                       <img src="img/good.jpg" alt="" class="ms-item-img">
+                       <p class="ms-item-name">分布式无线路由器</p>
+                       <div class="ms-item-buy">
+                            <span class="progress"><span class="progress-bar"></span></span>
+                            <span class="buy-num">已抢30%</span>
+                       </div>
+                       <div class="ms-item-price clearfix">
+                            <span class="cm-price new-price" >￥549.00</span>
+                             <span class="cm-price origin-price" >￥690.00</span>
+                       </div>
+                       </a>
+                  </div>
+                         <div class="ms-item">
+                       <a href="#" class="ms-item-lk">
+                       <img src="img/good.jpg" alt="" class="ms-item-img">
+                       <p class="ms-item-name">分布式无线路由器</p>
+                       <div class="ms-item-buy">
+                            <span class="progress"><span class="progress-bar"></span></span>
+                            <span class="buy-num">已抢30%</span>
+                       </div>
+                       <div class="ms-item-price clearfix">
+                            <span class="cm-price new-price" >￥549.00</span>
+                             <span class="cm-price origin-price" >￥690.00</span>
+                       </div>
+                       </a>
+                  </div>
+                         <div class="ms-item">
+                       <a href="#" class="ms-item-lk">
+                       <img src="img/good.jpg" alt="" class="ms-item-img">
+                       <p class="ms-item-name">分布式无线路由器</p>
+                       <div class="ms-item-buy">
+                            <span class="progress"><span class="progress-bar"></span></span>
+                            <span class="buy-num">已抢30%</span>
+                       </div>
+                       <div class="ms-item-price clearfix">
+                            <span class="cm-price new-price" >￥549.00</span>
+                             <span class="cm-price origin-price" >￥690.00</span>
+                       </div>
+                       </a>
+                  </div>
+                         <div class="ms-item">
+                       <a href="#" class="ms-item-lk">
+                       <img src="img/good.jpg" alt="" class="ms-item-img">
+                       <p class="ms-item-name">分布式无线路由器</p>
+                       <div class="ms-item-buy">
+                            <span class="progress"><span class="progress-bar"></span></span>
+                            <span class="buy-num">已抢30%</span>
+                       </div>
+                       <div class="ms-item-price clearfix">
+                            <span class="cm-price new-price" >￥549.00</span>
+                             <span class="cm-price origin-price" >￥690.00</span>
+                       </div>
+                       </a>
+                  </div>
+                         <div class="ms-item">
+                       <a href="#" class="ms-item-lk">
+                       <img src="img/good.jpg" alt="" class="ms-item-img">
+                       <p class="ms-item-name">分布式无线路由器</p>
+                       <div class="ms-item-buy">
+                            <span class="progress"><span class="progress-bar"></span></span>
+                            <span class="buy-num">已抢30%</span>
+                       </div>
+                       <div class="ms-item-price clearfix">
+                            <span class="cm-price new-price" >￥549.00</span>
+                             <span class="cm-price origin-price" >￥690.00</span>
+                       </div>
+                       </a>
+                  </div>
+                  -->
+        </div>
+        <!--秒杀专区-->
+        <!--热卖专区-->
+      </div>
+      <div id="hotsale" class="layer w">
+        <div class="layer-inner">
+          <h3 class="hotSale">热卖单品</h3>
+          <ul id="hotSaleList" class="saleList clearfix">
+            <!--               <li class="bs-item item">
+                                <a href="">
+                                     <img src="img/good.jpg" alt="">
+                                     <p class="title">分布式无线路由器</p>
+                                     <div class="line-2 clearfix">
+                                         <span class="comment">评论<em>8888</em></span>
+                                          <span class="collect">收藏<em>8888</em></span>
+                                     </div>
+                                     <div class="line-3">
+                                          <span class="strong">1100</span>
+                                          <span class="price-through">￥2400</span>
+                                          <span class="sell">月销售1000</span>
+                                     </div>
+                                </a>
+                           </li>
+                           <li class="bs-item item">
+                                <a href="">
+                                     <img src="img/good.jpg" alt="">
+                                     <p class="title">分布式无线路由器</p>
+                                     <div class="line-2 clearfix">
+                                         <span class="comment">评论<em>8888</em></span>
+                                          <span class="collect">收藏<em>8888</em></span>
+                                     </div>
+                                     <div class="line-3">
+                                          <span class="strong">1100</span>
+                                          <span class="price-through">￥2400</span>
+                                          <span class="sell">月销售1000</span>
+                                     </div>
+                                </a>
+                           </li>
+                           <li class="bs-item item">
+                                <a href="">
+                                     <img src="img/good.jpg" alt="">
+                                     <p class="title">分布式无线路由器</p>
+                                     <div class="line-2 clearfix">
+                                         <span class="comment">评论<em>8888</em></span>
+                                          <span class="collect">收藏<em>8888</em></span>
+                                     </div>
+                                     <div class="line-3">
+                                          <span class="strong">1100</span>
+                                          <span class="price-through">￥2400</span>
+                                          <span class="sell">月销售1000</span>
+                                     </div>
+                                </a>
+                           </li>
+                           <li class="bs-item item">
+                                <a href="">
+                                     <img src="img/good.jpg" alt="">
+                                     <p class="title">分布式无线路由器</p>
+                                     <div class="line-2 clearfix">
+                                         <span class="comment">评论<em>8888</em></span>
+                                          <span class="collect">收藏<em>8888</em></span>
+                                     </div>
+                                     <div class="line-3">
+                                          <span class="strong">1100</span>
+                                          <span class="price-through">￥2400</span>
+                                          <span class="sell">月销售1000</span>
+                                     </div>
+                                </a>
+                           </li>
+                           <li class="bs-item item">
+                                <a href="">
+                                     <img src="img/good.jpg" alt="">
+                                     <p class="title">分布式无线路由器</p>
+                                     <div class="line-2 clearfix">
+                                         <span class="comment">评论<em>8888</em></span>
+                                          <span class="collect">收藏<em>8888</em></span>
+                                     </div>
+                                     <div class="line-3">
+                                          <span class="strong">1100</span>
+                                          <span class="price-through">￥2400</span>
+                                          <span class="sell">月销售1000</span>
+                                     </div>
+                                </a>
+                           </li>
+                           -->
+          </ul>
+        </div>
+      </div>
+      <!--热卖专区-->
+      <!--喜欢专区-->
+      <div id="guesslike" class="layer w">
+        <div class="layer-inner">
+          <h3 class="likeSale">猜你喜欢</h3>
+          <ul id="gl" class="saleList clearfix">
+            <!--         <li class="like-item item">
+                          <a href="https://www.baidu.com">
+                          <img src="img/good.jpg" alt="" class="item-img">
+                          </a>
+                          <p class="title">分布式无线路由器</p>
+                          <div class="line-3">
+                               <span class="strong">1100</span>
+                               <span class="sell">月销3000笔</span>
+                          </div>
+                          <a href="https://xdclass.net" class="item-more">发现更多相似宝贝</a>
+                     </li>
+                     <li class="like-item item">
+                          <a href="https://www.baidu.com">
+                          <img src="img/good.jpg" alt="" class="item-img">
+                          </a>
+                          <p class="title">分布式无线路由器</p>
+                          <div class="line-3">
+                               <span class="strong">1100</span>
+                               <span class="sell">月销3000笔</span>
+                          </div>
+                          <a href="https://xdclass.net" class="item-more">发现更多相似宝贝</a>
+                     </li>
+                     <li class="like-item item">
+                          <a href="https://www.baidu.com">
+                          <img src="img/good.jpg" alt="" class="item-img">
+                          </a>
+                          <p class="title">分布式无线路由器</p>
+                          <div class="line-3">
+                               <span class="strong">1100</span>
+                               <span class="sell">月销3000笔</span>
+                          </div>
+                          <a href="https://xdclass.net" class="item-more">发现更多相似宝贝</a>
+                     </li>
+                     <li class="like-item item">
+                          <a href="https://www.baidu.com">
+                          <img src="img/good.jpg" alt="" class="item-img">
+                          </a>
+                          <p class="title">分布式无线路由器</p>
+                          <div class="line-3">
+                               <span class="strong">1100</span>
+                               <span class="sell">月销3000笔</span>
+                          </div>
+                          <a href="https://xdclass.net" class="item-more">发现更多相似宝贝</a>
+                     </li>
+                     <li class="like-item item">
+                          <a href="https://www.baidu.com">
+                          <img src="img/good.jpg" alt="" class="item-img">
+                          </a>
+                          <p class="title">分布式无线路由器</p>
+                          <div class="line-3">
+                               <span class="strong">1100</span>
+                               <span class="sell">月销3000笔</span>
+                          </div>
+                          <a href="https://xdclass.net" class="item-more">发现更多相似宝贝</a>
+                     </li>
+                     <li class="like-item item">
+                          <a href="https://www.baidu.com">
+                          <img src="img/good.jpg" alt="" class="item-img">
+                          </a>
+                          <p class="title">分布式无线路由器</p>
+                          <div class="line-3">
+                               <span class="strong">1100</span>
+                               <span class="sell">月销3000笔</span>
+                          </div>
+                          <a href="https://xdclass.net" class="item-more">发现更多相似宝贝</a>
+                     </li>
+                     <li class="like-item item">
+                          <a href="https://www.baidu.com">
+                          <img src="img/good.jpg" alt="" class="item-img">
+                          </a>
+                          <p class="title">分布式无线路由器</p>
+                          <div class="line-3">
+                               <span class="strong">1100</span>
+                               <span class="sell">月销3000笔</span>
+                          </div>
+                          <a href="https://xdclass.net" class="item-more">发现更多相似宝贝</a>
+                     </li>
+           -->
+          </ul>
+          <div id="loadMore" class="loadMore">
+            <span>加载更多</span>
+          </div>
+        </div>
+      </div>
+      <!--喜欢专区-->
+      <!--底部版权信息-->
+      <div class="footer">
+        <div class="top">
+          <div class="wrapper">
+            <div class="clearfix">
+              <a href="#2" class="fl"><img src="img/foot1.png" /></a>
+              <span class="fl">7天无理由退货</span>
+            </div>
+            <div class="clearfix">
+              <a href="#2" class="fl"><img src="img/foot2.png" /></a>
+              <span class="fl">15天免费换货</span>
+            </div>
+            <div class="clearfix">
+              <a href="#2" class="fl"><img src="img/foot3.png" /></a>
+              <span class="fl">满599包邮</span>
+            </div>
+            <div class="clearfix">
+              <a href="#2" class="fl"><img src="img/foot4.png" /></a>
+              <span class="fl">手机特色服务</span>
+            </div>
+          </div>
+        </div>
+        <div class="footer_container w">
+          <div class="footer_social">
+            <a href=""><img src="img/camscanner.png" alt="官方微博" /></a>
+            <a href=""><img src="img/camscanner.png" alt="官方公众号" /></a>
+            <a href=""><img src="img/camu_camera.png" alt="客服QQ" /></a>
+          </div>
+          <ul class="footer_link">
+            <li><a href="">联系我们</a></li>
+            <li><a href="">帮助我们</a></li>
+            <li><a href="">帮助中心</a></li>
+            <li><a href="">讲师合作</a></li>
+            <li><a href="">友情链接</a></li>
+          </ul>
+          <div class="footer_copyright">Copyright 2021</div>
+        </div>
+        <p class="dibu">
+          星包客电商网站&copy;2013-2025公司版权所有
+          陇ICP备080100-44备0000111000号<br />
+          违法和不良信息举报电话：400-800-8200，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+        </p>
+      </div>
+    </main>
+    <div class="tool">
+      <a href="#miaosha" class="tool-item1">秒杀<br /><br /><br /></a>
+      <a href="#hotsale" class="tool-item2">热卖单品<br /><br /><br /></a>
+      <a href="#guessLike" class="tool-item3">猜你喜欢<br /><br /><br /></a>
+      <a id="goTop" href="#tool-item4" onclick="goTop()"
+        ><span class="top-arrow">顶部</span></a
+      >
+      <a class="tool-item5">反馈</a>
+    </div>
+    <!--底部版权信息-->
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="Javascript/ajax.js"></script>
+    <script src="Javascript/index.js"></script>
+    <script src="Javascript/public.js"></script>
+  </body>
+</html>

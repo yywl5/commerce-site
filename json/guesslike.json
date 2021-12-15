@@ -1,0 +1,42 @@
+{
+    "data": [{
+            "id": 1,
+            "good_img": "../img/good.jpg",
+            "name": "分布式无线路由器",
+            "new_price": 2387,
+            "saleNum": 2949
+        },
+        {
+            "id": 2,
+            "good_img": "../img/good.jpg",
+            "name": "分布式无线路由器",
+            "new_price": 2387,
+            "saleNum": 2949
+        },
+        {
+            "id": 3,
+            "good_img": "../img/good.jpg",
+            "name": "分布式无线路由器",
+            "new_price": 2387,
+            "saleNum": 2949
+        },
+        {
+            "id": 4,
+            "good_img": "../img/good.jpg",
+            "name": "分布式无线路由器",
+            "new_price": 2387,
+
+            "saleNum": 2949
+        },
+        {
+            "id": 5,
+            "good_img": "../img/good.jpg",
+            "name": "分布式无线路由器",
+            "new_price": 2387,
+            "saleNum": 2949
+        }
+    ],
+
+    "code": 0,
+    "msg": "成功"
+}

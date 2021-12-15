@@ -1,0 +1,65 @@
+{
+  "id": "2825760",
+  "name": "test",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5027",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "253567",
+      "name": "手机",
+      "font_class": "shouji1",
+      "unicode": "e6c7",
+      "unicode_decimal": 59079
+    },
+    {
+      "icon_id": "666888",
+      "name": "手机",
+      "font_class": "shouji2",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "11372702",
+      "name": "手机",
+      "font_class": "shouji3",
+      "unicode": "e8b9",
+      "unicode_decimal": 59577
+    },
+    {
+      "icon_id": "11372775",
+      "name": "手机",
+      "font_class": "shouji4",
+      "unicode": "e8c6",
+      "unicode_decimal": 59590
+    },
+    {
+      "icon_id": "24403880",
+      "name": "数据报表",
+      "font_class": "shujubaobiao",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "24403881",
+      "name": "骑手管理",
+      "font_class": "qishouguanli",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "24403882",
+      "name": "促销活动",
+      "font_class": "cuxiaohuodong",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    }
+  ]
+}

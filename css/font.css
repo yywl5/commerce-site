@@ -1,0 +1,101 @@
+/********************设定自定义字体********************/
+
+@font-face {
+    font-family: Abel;
+    src: url("../fonts/Abel");
+}
+
+@font-face {
+    font-family: Anton;
+    src: url("../fonts/Anton");
+}
+
+@font-face {
+    font-family: Josefin_Sans;
+    src: url("../fonts/Josefin_Sans");
+}
+
+@font-face {
+    font-family: Lexend_Deca;
+    src: url("../fonts/Lexend_Deca");
+}
+
+@font-face {
+    font-family: Livvic;
+    src: url("../fonts/Livvic");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto");
+}
+
+@font-face {
+    font-family: Hanalei_Fill;
+    src: url("../fonts/Hanalei_Fill");
+}
+
+@font-face {
+    font-family: "iconfont";
+    /* Project id 2825760 */
+    src: url('../fonts/iconfont/iconfont.woff2') format('woff2'), url('../fonts/iconfont/iconfont.woff') format('woff'), url('../fonts/iconfont/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shouji:before {
+    content: "\e600";
+}
+
+.icon-shouji1:before {
+    content: "\e6c7";
+}
+
+.icon-shouji2:before {
+    content: "\e692";
+}
+
+.icon-shouji3:before {
+    content: "\e8b9";
+}
+
+.icon-shouji4:before {
+    content: "\e8c6";
+}
+
+.icon-shujubaobiao:before {
+    content: "\e609";
+}
+
+.icon-qishouguanli:before {
+    content: "\e60a";
+}
+
+.icon-cuxiaohuodong:before {
+    content: "\e60b";
+}
+
+
+/********************设定自定义字体********************/
+
+
+/*适配平板和手机*/
+
+
+/*当屏幕的宽度小于或等于750px时*/
+
+@media only screen and (max-width:750px) {
+    .nav .nav-menu,
+    .nav .nav-items {
+        flex-direction: column;
+    }
+    .nav .toggle-collapse {
+        display: initial;
+    }
+}

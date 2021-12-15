@@ -1,0 +1,48 @@
+{
+    "data": {
+        "ms_time": 3896,
+        "goods_list": [{
+                "id": 1,
+                "good_img": "../img/good.jpg",
+                "name": "分布式无线路由器",
+                "progress": 30,
+                "new_price": 2387,
+                "old_price": 3785
+            },
+            {
+                "id": 2,
+                "good_img": "../img/good.jpg",
+                "name": "分布式无线路由器",
+                "progress": 30,
+                "new_price": 2387,
+                "old_price": 3785
+            },
+            {
+                "id": 3,
+                "good_img": "../img/good.jpg",
+                "name": "分布式无线路由器",
+                "progress": 30,
+                "new_price": 2387,
+                "old_price": 3785
+            },
+            {
+                "id": 4,
+                "good_img": "../img/good.jpg",
+                "name": "分布式无线路由器",
+                "progress": 30,
+                "new_price": 2387,
+                "old_price": 3785
+            },
+            {
+                "id": 5,
+                "good_img": "../img/good.jpg",
+                "name": "分布式无线路由器",
+                "progress": 30,
+                "new_price": 2387,
+                "old_price": 3785
+            }
+        ]
+    },
+    "code": 0,
+    "msg": "成功"
+}

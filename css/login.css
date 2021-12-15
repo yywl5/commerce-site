@@ -1,0 +1,345 @@
+@import url('base.css');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+/*navigation section*/
+
+.nav {
+    background-color: var(--wihte);
+    background-image: none;
+    background-size: 100%;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+    transition: height 0.6s ease-in-out;
+    background: #f5f5f5;
+}
+
+@keyframes bganimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.nav .nav-menu {
+    justify-content: space-between;
+}
+
+.nav .toggle-collapse {
+    position: absolute;
+    top: 0;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+}
+
+.nav .toggle-collapse .toggle-icons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+}
+
+.nav .toggle-collapse .toggle-icons i {
+    font-size: 1.4rem;
+    color: var(--text-gray);
+}
+
+.cpllapse {
+    height: 30rem;
+}
+
+.card_front {
+    direction: rtl;
+}
+
+.nav .toggle-collapse .toggle-icons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+}
+
+.nav .toggle-collapse .toggle-icons i {
+    font-size: 1.4rem;
+    color: var(--text-gray);
+}
+
+.nav .nav-menu .nav-brand a {
+    font-size: 2rem;
+    font-family: var(--Lexend);
+    padding: 1rem 0;
+    display: block;
+}
+
+.nav .nav-menu .nav-items {
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-menu .nav-items .nav-link {
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    font-size: 1.1rem;
+    font-family: var(--Abel);
+    position: relative;
+}
+
+.nav .nav-menu .nav-items .nav-link:hover {
+    background-color: var(--midnight);
+}
+
+.nav .nav-menu .nav-items .nav-link:hover a {
+    color: var(--wihte);
+}
+
+.nav .nav-menu .socal {
+    padding: 1.4rem 0;
+}
+
+.nav .nav-menu .socal i:hober {
+    color: #a1c4cf;
+}
+
+
+/*navigation section*/
+
+main {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.login:hover {
+    opacity: 1;
+}
+
+.register:hover {
+    opacity: 1;
+}
+
+.login {
+    direction: ltr;
+    position: absolute;
+    margin-top: 20px;
+    width: 500px;
+    border-radius: 15px;
+    margin-right: 100px;
+    padding: 0 20px 0 0;
+    height: 500px;
+    /*玻璃模糊特效*/
+    background: rgba(195, 230, 248, 0.336);
+    opacity: 0.6;
+    backdrop-filter: blur(8px);
+    box-shadow: 0, 25px, 45px rgba(66, 142, 241, 0.7);
+    border: 1px solid rgba(115, 192, 187, 0.7);
+    border-right: 1px solid rgba(77, 167, 161, 0.7);
+    border-bottom: 1px solid rgba(25, 156, 148, 0.7);
+    /*玻璃模糊特效*/
+}
+
+.form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.form h2 {
+    margin-top: 30px;
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.form h2::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 0px;
+    height: 3px;
+    transition: 0.5s;
+}
+
+.form h2:hover:before {
+    width: 53px;
+}
+
+.form .inputBox {
+    width: 100%;
+    margin: 20px 10px;
+}
+
+.form .inputBox input {
+    width: 70%;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.3);
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #000;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.form .inputBox input::placeholder {
+    color: #000;
+}
+
+.form .inputBox input[type="Button"] {
+    background: #fff;
+    color: #000;
+    max-width: 120px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/******背景动画********/
+
+section {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    /*此处去除min-height属性，会导致页面显示失衡:     min-height: 100vh;*/
+    background: var(--sky--);
+}
+
+section .card_front .Img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+}
+
+
+/******背景动画********/
+
+.forget:hover,
+.forget a:hover {
+    color: aqua;
+}
+
+.register {
+    direction: ltr;
+    margin-top: 20px;
+    width: 500px;
+    position: absolute;
+    border-radius: 15px;
+    margin-right: 100px;
+    padding: 0 20px 0 0;
+    height: 500px;
+    /*玻璃模糊特效*/
+    background: rgba(195, 230, 248, 0.336);
+    opacity: 0.6;
+    backdrop-filter: blur(8px);
+    box-shadow: 0, 25px, 45px rgba(66, 142, 241, 0.7);
+    border: 1px solid rgba(115, 192, 187, 0.7);
+    border-right: 1px solid rgba(77, 167, 161, 0.7);
+    border-bottom: 1px solid rgba(25, 156, 148, 0.7);
+    transform: rotateY(-180deg);
+    /*玻璃模糊特效*/
+}
+
+
+/*开始不显示*/
+
+#mountains_behind,
+#mountains_front {
+    transform: rotateY(90deg);
+}
+
+#moon {
+    mix-blend-mode: screen;
+    perspective: 1000px;
+    display: none;
+    z-index: 1;
+}
+
+
+/*开始不显示*/
+
+.box {
+    cursor: pointer;
+    backface-visibility: hidden;
+    user-select: none;
+    transition: all 1s;
+}
+
+a,
+p {
+    color: var(--wihte);
+}
+
+#cloud {
+    animation: cloud-move 30s linear infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    opacity: 0.7;
+}
+
+@keyframes cloud-move {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(500px);
+    }
+}
+
+.Background {
+    perspective: 3000px;
+    transform-style: preserve-3d;
+    transition: all 3s;
+}
+
+#forest {
+    transform-style: preserve-3d;
+    transition: all 3s linear;
+    transform-origin: bottom;
+}
+
+#cloud {
+    mix-blend-mode: screen;
+}
+
+#water {
+    transform-style: preserve-3d;
+    transition: all 3s linear;
+}
+
+#mountains_behind,
+#mountains_front {
+    transform-style: preserve-3d;
+    transition: all 3s linear;
+    transform-origin: bottom;
+}
+
+#s_password,
+#s_repassword,
+#s_username,
+#s_email,
+#s_telphone {
+    color: red;
+    float: right;
+    width: 110px;
+    height: 30px;
+}

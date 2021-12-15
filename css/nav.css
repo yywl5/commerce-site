@@ -1,0 +1,222 @@
+/******顶部栏********/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+}
+
+.top-nav .w .login .login_button:hover,
+.top-nav .w .login .register_button:hover {
+    color: #28ABFF;
+}
+
+.top-nav {
+    background-color: #f5f5f5;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.top-nav .login {
+    float: left;
+}
+
+.top-nav .nav-list {
+    float: right;
+}
+
+.top-nav .nav-list li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+/******搜索框********/
+
+.logo {
+    top: 33px;
+    position: absolute;
+    width: 150px;
+    height: 56px;
+    left: 15px;
+    line-height: 56px;
+    font-size: 40px;
+    color: #e63e3e;
+    font-weight: bold;
+    text-align: center;
+}
+
+.search-box {
+    padding: 40px 0 40px 300px;
+}
+
+.searchWrap .w {
+    position: relative;
+}
+
+.search-box .searchInput {
+    width: 530px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+.search-box .search-input {
+    float: left;
+    width: 530px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+.search-box .search-btn {
+    float: left;
+    width: 50px;
+    height: 42px;
+    background-color: #c41a3f;
+    color: #fff;
+}
+
+.search-suggest {
+    display: none;
+    position: absolute;
+    top: 82px;
+    background-color: #ffff;
+    width: 550px;
+    border: 1px solid #ddd;
+    z-index: 10;
+}
+
+ul.search-suggest li {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+ul.search-suggest li:hover {
+    color: #ff9f00;
+    background: #ddd;
+    cursor: pointer;
+}
+
+.bottom-nav {
+    width: 100%;
+    height: auto;
+    min-height: 50px;
+    background-image: url('../img/nav-background.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+}
+
+.bottom-nav ul {
+    float: left;
+    margin-left: 18%;
+    line-height: 50px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.bottom-nav ul li {
+    float: left;
+    padding: 0 20px;
+}
+
+.bottom-nav ul li>a {
+    color: #262626;
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+}
+
+.bottom-nav ul li:nth-child(1) a:before {
+    left: -12px;
+}
+
+.bottom-nav ul li a:before {
+    content: "";
+    background: #A10000;
+    position: absolute;
+    bottom: -3px;
+    z-index: -1;
+    transform: scaleX(0);
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+
+.bottom-nav div.sList {
+    position: absolute;
+    top: 113px;
+    left: 0;
+    z-index: 3;
+    background: #fff;
+    width: 100%;
+    display: none;
+}
+
+.bottom-nav div.sList div dl dt img {
+    width: 70%;
+}
+
+.bottom-nav div.sList div a {
+    flex: 1 1 20%;
+    border-right: 1px solid #dbdbdb;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+.bottom-nav div.sList div {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+}
+
+.bottom-nav ul {
+    float: left;
+    margin-left: 18%;
+    line-height: 50px;
+}
+
+.bottom-nav div.sList2 {
+    display: none;
+    position: absolute;
+    top: 113px;
+    left: 0;
+    z-index: 3;
+    background: #fff;
+    width: 100%;
+}
+
+.bottom-nav div.sList2 div {
+    width: 46%;
+    margin: 0 auto;
+}
+
+.bottom-nav div.sList2 a {
+    float: left;
+    margin-right: 40px;
+}
+
+
+/******搜索框********/

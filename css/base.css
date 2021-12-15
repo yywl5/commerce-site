@@ -1,0 +1,101 @@
+/********************全局定义********************/
+
+@import url('font.css');
+@import url('footer.css');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text--gray: #354954;
+    --text-light: #686666da;
+    --bg-color: #0f0f0f;
+    --white: #fff;
+    --mignight: #104f55;
+    --sky--: linear-gradient(120deg, #a1c4fd 0%, #c2e9fc 100%);
+    --gray--: #d2baba;
+    --dark--: #ffffff;
+    --bright--: #000000;
+    --nav_default--: #ecddd6;
+    /********************主题字体********************/
+    --Abel: 'Abel', cursive;
+    --Anton: 'Josefin', cursive;
+    --Josefin: 'Josefin', cursive;
+    --Lexend: 'Livvic', cursive;
+    --Livvic: 'Livvic', cursive;
+    --Roboto: 'Roboto', cursive;
+    --Hanalei_Fill: 'Hanalei_Fill', cursive;
+    /********************主题字体********************/
+}
+
+html,
+body {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text--gray);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    margin: 0 5vw;
+}
+
+h1 {
+    font-family: var(--Lexend);
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-family: var(--Lexend);
+}
+
+h3 {
+    font-family: var(--Abel);
+    font-size: 1.3rem;
+}
+
+span {
+    font-family: var(--Abel);
+}
+
+p {
+    font-family: var(--Lexend);
+}
+
+
+/********************自定义公共类********************/
+
+
+/********************自定义公共类********************/
+
+button.btn {
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--Lexend);
+    cursor: pointer;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/********************全局定义********************/
