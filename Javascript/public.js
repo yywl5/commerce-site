@@ -8,3 +8,16 @@ $(function() {
         }
     });
 })
+
+
+let QRCode = document.getElementById("link_a");
+let PCharacter = document.getElementById("nav_img");
+let Nav_p = document.getElementById("nav_p");
+QRCode.addEventListener("mouseover", () => {
+    Nav_p.style.display = "block";
+    PCharacter.style.display = "block";
+});
+QRCode.addEventListener("mouseout", () => {
+    Nav_p.style.display = "none";
+    PCharacter.style.display = "none";
+});

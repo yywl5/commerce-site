@@ -10,6 +10,15 @@
     height: auto;
     position: relative;
     display: block;
+    background-color: #f5f5f5;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.Center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .top-nav .w .login .login_button:hover,
@@ -17,21 +26,15 @@
     color: #28ABFF;
 }
 
-.top-nav {
-    background-color: #f5f5f5;
-    font-size: 12px;
-    padding: 10px 0;
-}
-
 .top-nav .login {
     float: left;
 }
 
-.top-nav .nav-list {
+.top-nav .nav-lists {
     float: right;
 }
 
-.top-nav .nav-list li {
+.top-nav .nav-lists li {
     display: inline-block;
     margin-left: 10px;
 }
@@ -111,13 +114,13 @@ ul.search-suggest li:hover {
 }
 
 .bottom-nav {
-    width: 100%;
     height: auto;
     min-height: 50px;
     background-image: url('../img/nav-background.jpg');
     background-repeat: no-repeat;
     background-size: auto;
     background-size: cover;
+    overflow: hidden;
 }
 
 .bottom-nav ul {
@@ -164,7 +167,7 @@ ul.search-suggest li:hover {
 
 .bottom-nav div.sList {
     position: absolute;
-    top: 113px;
+    top: 95px;
     left: 0;
     z-index: 3;
     background: #fff;
@@ -192,12 +195,6 @@ a:-webkit-any-link {
     display: flex;
 }
 
-.bottom-nav ul {
-    float: left;
-    margin-left: 18%;
-    line-height: 50px;
-}
-
 .bottom-nav div.sList2 {
     display: none;
     position: absolute;
@@ -216,6 +213,25 @@ a:-webkit-any-link {
 .bottom-nav div.sList2 a {
     float: left;
     margin-right: 40px;
+}
+
+.top-nav img {
+    /*display: none;*/
+    width: 100%;
+    display: none;
+}
+
+.top-nav p a {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 30px;
+    background: #fff;
+    right: 330px;
+    padding: 2px;
+    z-index: 10;
+    border: 1px solid #A10000;
+    display: none;
 }
 
 

@@ -165,6 +165,7 @@ window.onload = function() {
         }
     }
 
+
     function msApi() {
         ajax("get", "../json/miaosha.json", function(res) {
             //  console.log(res);
@@ -259,7 +260,7 @@ window.onload = function() {
                         '</li>';
                 }
                 hotSaleList.innerHTML = str;
-                alert(str);
+                //alert(str);
             }
 
 
@@ -385,3 +386,4 @@ $(function() {
 })
 
 /******固定导航栏********/
+
