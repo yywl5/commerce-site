@@ -386,37 +386,3 @@ $(function() {
 })
 
 /******固定导航栏********/
-
-function $(e) {
-    return document.getElementById(e)
-}
-
-function $c(e) {
-    return document.getElementsByClassName(e)
-}
-
-var a1 = $c("a1")
-var Nav = $("Nav")
-var MainContent = $("main")
-
-MainContent.style.marginTop = (7200 + vh) + "px";
-
-function TranformLeft(e, r, b, o) {
-    for (var i = 0; i < e.length; i += 2) {
-        e[i].style.left = o.get(o, scrollTop - i * 1000)[0] + "px";
-    }
-}
-
-function transformRight(e, r, b, o) {
-    for (var i = 0; i < e.length; i += 2) {
-        e[i].style.left = o.get(o, scrollTop - (i - 1) * 1000)[0] + "px";
-    }
-}
-
-function NavigatorTranform(e, r) {
-    Nav.style.top = r[0];
-}
-
-var =
-
-
