@@ -13,6 +13,8 @@ let ChangeButton = document.getElementById("LoginButton");
 let RegisterConfirm = document.getElementsByClassName("registerbutton");
 
 
+
+
 window.onload = function() {
     WindowsOpenDatabase();
     RegisterButton.addEventListener("click", () => {
@@ -41,12 +43,16 @@ window.onload = function() {
         $(".Background").css("backgroundImage", "linear-gradient(125deg, hsl(263, 68%, 20%), hsl(242, 52%, 46%), hsl(242, 55%, 50%), hsl(228, 41%, 39%), hsl(221, 61%, 66%))");
 
         $(".Background").css("backgroundSize", "400%");
-        $(".nav").css("background", "linear-gradient(#2b1055,#7597de)");
+        $(".NoChangeNav").css("background", "linear-gradient(#2b1055,#7597de)");
         $("i").css("color", "#fff");
         $(".text-gray").css("color", "#fff");
         $("#cloud").css("z-index", "2");
         $("#water").fadeOut(3000);
         $(".Background").css("animation", "bganimation 15s infinite");
+        $("a").css("color", "#fff");
+        $('a#linkedA').hover(function() {　　　　
+            $(this).css("color", "#fff");
+        })
 
     })
 
@@ -75,11 +81,17 @@ window.onload = function() {
         $("input").css("color", "#000");
         $("input::-webkit-input-placeholder").css("color", "#000");
         $("p").css("color", "#000");
-        $(".nav").css("background", "#f5f5f5");
+        $(".NoChangeNav").css("background", "#f5f5f5");
         $("i").css("color", "#000");
         $(".text-gray").css("color", "#000");
         $("#cloud").css("z-index", "0");
         $(".Background").css("animation", "bganimation 15s infinite");
+        $("a").css("color", "#000");
+        $('a#linkedA').hover(function() {　　　　
+            $(this).css("color", "#fff");
+        }, function() {　　　　
+            $(this).css("color", "#000");
+        })
     })
 
 

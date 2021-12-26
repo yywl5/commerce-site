@@ -1,0 +1,808 @@
+.address {
+    width: calc(100%);
+    height: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.wrapper {
+    margin: auto;
+    width: 1160px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.address .wrapper span,
+.address .wrapper a {
+    float: left;
+    color: #777;
+    font-size: 14px;
+    float: left;
+    margin: 0 10px;
+}
+
+.PersonalSpaceMain .PersonalSpaceLeft {
+    margin: 20px 20px 20px 0;
+    width: 180px;
+    background: #fff;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #e4e4e4;
+}
+
+.PersonalSpaceMain {
+    background: #f5f5f5;
+}
+
+.PersonalSpaceMain .PersonalSpaceLeft h3 {
+    border-bottom: 1px solid #A10000;
+    cursor: pointer;
+    padding: 10px 0;
+    font-weight: normal;
+}
+
+.PersonalSpaceMain .PersonalSpaceLeft div {
+    background: #fcfcff;
+}
+
+.PersonalSpaceMain .PersonalSpaceLeft h4 {
+    cursor: pointer;
+    width: 90%;
+    color: #444;
+    font-size: 14px;
+    display: inline;
+}
+
+.PersonalSpaceMain .PersonalSpaceLeft ul li a {
+    display: inline-block;
+    color: #757575;
+    width: 40%;
+    text-align: left;
+    font-size: 14px;
+}
+
+.PersonalSpaceMain .PersonalSpaceRight {
+    background: #fff;
+    width: 840px;
+    padding: 50px;
+    margin: 20px 0;
+    border: 1px solid #e4e4e4;
+}
+
+.PersonalSpaceMain .PersonalSpaceRight .PersonalInformation {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.PersonalSpaceMain .PersonalSpaceRight .PersonalInformation div a.fl {
+    display: block;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    padding: 1px;
+}
+
+.PersonalSpaceMain .PersonalSpaceRight .PersonalInformation div p {
+    margin: 25px 0 0 15px;
+}
+
+.PersonalSpaceMain .PersonalSpaceRight .PersonalInformation div p span {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.PersonalSpaceMain .PersonalSpaceRight .PersonalInformation div p a {
+    display: block;
+    color: #A10000;
+}
+
+.PersonalSpaceMain .PersonalSpaceRight .PersonalInformation div.fr {
+    margin: 40px 0 0 0;
+    color: #757575;
+}
+
+.PersonalSpaceMain .PersonalSpaceRight .PersonalSpaceMain {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    justify-content: space-between;
+}
+
+.PersonalSpaceMain .PersonalSpaceRight .PersonalSpaceMain div {
+    display: block;
+    font-size: 12px;
+    color: #757575;
+    margin-top: 10px;
+}
+
+.PersonalSpaceMain .PersonalSpaceRight .PersonalSpaceMain div a {
+    display: block;
+    font-size: 12px;
+    color: #757575;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.PersonalSpaceMain .PersonalSpaceRight .PersonalSpaceMain div p {
+    font-size: 15px;
+    color: #757575;
+    margin: 35px 0 0 15px;
+}
+
+.PersonalSpaceMain .PersonalSpaceRight .PersonalSpaceMain div p strong {
+    color: #A10000;
+}
+
+
+/*****************         th     ********************/
+
+.ShoppingCarTable {
+    margin-bottom: 30px;
+    background: #fdfdfd;
+}
+
+.ShoppingCarTable .tr:first-child {
+    display: flex;
+    text-align: center;
+}
+
+.ShoppingCarTable .tr {
+    height: 40px;
+    line-height: 40px;
+    background: #e9e9e9;
+    border-bottom: none;
+}
+
+.ShoppingCarTable .th div:nth-child(1),
+.ShoppingCarTable .tr:first-child div:nth-child(1) {
+    flex: 3;
+}
+
+.ShoppingCarTable .th div:nth-child(2),
+.ShoppingCarTable .tr:first-child div:nth-child(2) {
+    flex: 1;
+}
+
+.ShoppingCarTable .th div:nth-child(3),
+.ShoppingCarTable .tr:first-child div:nth-child(3) {
+    flex: 2;
+}
+
+.ShoppingCarTable .th div:nth-child(4),
+.ShoppingCarTable .tr:first-child div:nth-child(4) {
+    flex: 1;
+}
+
+.ShoppingCarTable .th div:nth-child(5),
+.ShoppingCarTable .tr:first-child div:nth-child(5) {
+    flex: 1;
+}
+
+.ShoppingCarTable .th {
+    display: flex;
+    height: 146px;
+    border-bottom: 1px dashed #d9d9d9;
+}
+
+.ShoppingCarTable .th div:nth-child(1),
+.ShoppingCarTable .tr:first-child div:nth-child(1) {
+    flex: 3;
+}
+
+.ShoppingCarTable .th .th_label {
+    text-align: left;
+}
+
+.ShoppingCarTable label {
+    width: 16px;
+    height: 16px;
+    margin: 65px 17px 0 20px;
+    position: relative;
+}
+
+.ShoppingCarTable label input[type="checkbox"] {
+    opacity: 0;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    font-size: 100%;
+    font-family: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.ShoppingCarTable label input+span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    background: url(../img/temp/check.jpg);
+}
+
+.ShoppingCarTable .th .th_label dl {
+    margin-top: 13px;
+}
+
+.ShoppingCarTable .th .th_label dl dt {
+    margin-right: 13px;
+}
+
+.ShoppingCarTable .th .th_label dl dd {
+    position: relative;
+    color: #777;
+    padding: 0 10px 10px;
+    border: 1px dashed #fff;
+}
+
+.ShoppingCarTable .th div:nth-child(2),
+.ShoppingCarTable .tr:first-child div:nth-child(2) {
+    flex: 1;
+}
+
+.ShoppingCarTable .th .price {
+    line-height: 146px;
+}
+
+.ShoppingCarTable .th div:nth-child(3),
+.ShoppingCarTable .tr:first-child div:nth-child(3) {
+    flex: 2;
+}
+
+.ShoppingCarTable .th .number p {
+    width: 81px;
+    margin: 60px auto 0;
+}
+
+.ShoppingCarTable .th .number p span {
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.ShoppingCarTable .th div:nth-child(4),
+.ShoppingCarTable .tr:first-child div:nth-child(4) {
+    flex: 1;
+}
+
+.ShoppingCarTable .th div:nth-child(5),
+.ShoppingCarTable .tr:first-child div:nth-child(5) {
+    flex: 1;
+}
+
+.site .top {
+    margin-left: 290px;
+    min-height: 20px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.site {
+    height: 65px;
+    line-height: 65px;
+    font-size: 16px;
+}
+
+.site a:hover {
+    color: blue;
+}
+
+
+/*****************         th     ********************/
+
+
+/*****************         tr     ********************/
+
+.ShoppingCarTable .tr {
+    height: 40px;
+    line-height: 40px;
+    background: #e9e9e9;
+    border-bottom: none;
+    border-radius: 15px;
+}
+
+.ShoppingCarTable .tr p:last-child a {
+    border-radius: 15px;
+}
+
+.ShoppingCarTable .tr label {
+    margin: 13px 17px 0 20px;
+}
+
+.ShoppingCarTable label input[type="checkbox"] {
+    opacity: 0;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+}
+
+.ShoppingCarTable .tr p .del {
+    margin-left: 20px;
+}
+
+.ShoppingCarTable .tr p:last-child span:first-child {
+    margin-right: 90px;
+    color: #777;
+}
+
+.ShoppingCarTable .tr p:last-child a,
+.ShoppingCarTable .tr p:last-child span {
+    float: left;
+}
+
+.ShoppingCarTable .tr p:last-child a,
+.table .tr p:last-child span {
+    float: left;
+}
+
+.ShoppingCarTable .tr p small {
+    color: #c10000;
+}
+
+.ShoppingCarTable .tr p:last-child a {
+    margin-left: 40px;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    background: #8e8e8e;
+}
+
+.ShoppingCarTable .tr p:last-child a,
+.table .tr p:last-child span {
+    float: left;
+}
+
+.ShoppingCarTable .goOn {
+    height: 500px;
+    line-height: 500px;
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    display: none;
+}
+
+.ShoppingCarTable .goOn a {
+    color: #C10000;
+    text-decoration: underline;
+}
+
+
+/*****************         tr     ********************/
+
+
+/*****************         mask     ********************/
+
+.mask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 101;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.TipDelete {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 105;
+    margin-left: -125px;
+    margin-top: -75px;
+    width: 250px;
+    height: 150px;
+    background: #fff;
+    padding: 20px;
+    display: none;
+    border-radius: 5px;
+}
+
+.TipDelete p:first-child {
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+
+.TipDelete p:last-child {
+    border-radius: 10px;
+}
+
+.TipDelete p a {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #C10000;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.LabelDelete {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 102;
+    margin-left: -370px;
+    margin-top: -280px;
+    padding: 30px;
+    width: 740px;
+    background: #fff;
+    display: none;
+}
+
+.off {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.LabelControl .LabelImg {
+    width: 360px;
+}
+
+.LabelControl .LabelImg img {
+    display: block;
+}
+
+.smallImg {
+    margin-top: 20px;
+}
+
+.change {
+    margin: 54px 0;
+}
+
+.LabelIntroduce {
+    width: 350px;
+    padding: 20px 10px;
+    margin: 35px 0;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.LabelIntroduce>p {
+    height: 30px;
+    line-height: 30px;
+}
+
+.LabelIntroduce {
+    border: 1px solid #C10000;
+}
+
+.LabelIntroduce .smallImg p {
+    border: 1px solid #fff;
+}
+
+.LabelIntroduce .smallImg p {
+    padding: 2px;
+    margin-right: 20px;
+    border: 1px solid #fff;
+}
+
+.LabelIntroduce .smallImg img {
+    width: 45px;
+}
+
+.ChangeButton p.buy {
+    background: #C10000;
+    color: #fff;
+}
+
+.ChangeButton p {
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pleaseChoose {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 105;
+    margin-left: -100px;
+    margin-top: -50px;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    background: #fff;
+    text-align: center;
+    color: #000;
+    display: none;
+    filter: blur(0.9);
+}
+
+.ShoppingCarTable label input[type=checkbox]:checked+span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    background: url(../img/temp/checkOn.jpg);
+}
+
+
+/*****************         mask     ********************/
+
+
+/*****************         OrderConfirm     ********************/
+
+.OrderConfirm {
+    margin-top: 30px;
+}
+
+.OrderConfirm .OrderConfirmLeft {
+    width: 700px;
+}
+
+.OrderConfirm h3 {
+    height: 48px;
+    line-height: 48px;
+    font-weight: normal;
+    border-bottom: 1px solid #dbdbdb;
+    font-size: 16px;
+}
+
+.OrderConfirm h3 a {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.OrderConfirm .OrderConfirmLeft .RealAddress .on {
+    border: 2px solid #C10000;
+}
+
+.OrderConfirm .OrderConfirmLeft .RealAddress .RealPersonal {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 10px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.OrderConfirm .OrderConfirmLeft .RealAddress .RealPersonal p span {
+    margin: 0 10px;
+}
+
+.OrderConfirm .OrderConfirmLeft .RealAddress .RealPersonal p a {
+    text-decoration: underline;
+}
+
+.OrderConfirm .OrderConfirmLeft .AddDress {
+    padding: 0 10px;
+    background: #f5f5f5;
+}
+
+.OrderConfirm .OrderConfirmLeft .AddDress p {
+    line-height: 50px;
+}
+
+.OrderConfirm .OrderConfirmLeft .RealAddress {
+    width: 325px;
+    margin: 20px 20px 20px 0;
+    border: 2px solid #dbdbdb;
+    cursor: pointer;
+}
+
+.OrderConfirm .OrderConfirmLeft .RealAddress .RealPersonal {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 10px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.OrderConfirm .OrderConfirmLeft .RealAddress .RealPersonal p a {
+    text-decoration: underline;
+}
+
+.OrderConfirm .OrderConfirmLeft .RealAddress .RealPersonal p span {
+    margin: 0 10px;
+}
+
+.OrderConfirm .OrderConfirmLeft .RealAddress .AddDress {
+    padding: 0 10px;
+    background: #f5f5f5;
+}
+
+.OrderConfirm .OrderConfirmLeft .RealAddress .AddDress p {
+    line-height: 50px;
+}
+
+.OrderConfirm .OrderConfirmLeft .way img.on,
+.OrderConfirm .OrderConfirmLeft .PostedWay span.on {
+    border: 2px solid #c10000;
+}
+
+.OrderConfirm .OrderConfirmLeft .way img,
+.OrderConfirm .OrderConfirmLeft .PostedWay span {
+    float: left;
+    border: 2px solid #dbdbdb;
+    margin: 30px 20px 30px 0;
+    cursor: pointer;
+}
+
+.OrderConfirm .OrderRight .msg {
+    background: #f5f5f5;
+    padding: 0px 12px 20px;
+}
+
+.OrderConfirm .OrderRight .msg ul {
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.OrderConfirm .OrderRight .msg ul li:first-child {
+    margin: 10px;
+}
+
+.OrderConfirm .OrderRight .msg ul li:nth-child(3) {
+    margin-top: 45px;
+}
+
+.OrderConfirm .OrderRight .msg ul:last-child {
+    border-bottom: none;
+}
+
+.OrderConfirm .OrderRight .msg ul li:nth-child(2) {
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+.OrderConfirm .OrderRight .msg ul li:nth-child(2) p:nth-child(2),
+.OrderConfirm .OrderRight .msg ul li:nth-child(2) p:nth-child(3) {
+    color: #777;
+}
+
+.OrderConfirm .OrderRight .msg ul li:nth-child(3) {
+    margin-top: 45px;
+}
+
+.OrderConfirm .OrderRight .tips {
+    padding: 10px 0;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.OrderConfirm .OrderRight .tips p {
+    height: 28px;
+    line-height: 28px;
+}
+
+.OrderConfirm .OrderRight .count {
+    margin: 10px 0;
+    border: none;
+    font-size: 16px;
+}
+
+.OrderConfirm .OrderRight .tips {
+    padding: 10px 0;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.OrderConfirm .OrderRight .pay {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #c10000;
+    color: #fff;
+}
+
+.ReallyAddress {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    margin-top: -180px;
+    margin-left: -150px;
+    z-index: 30;
+    background: #fff;
+    border: 1px solid #A10000;
+    padding: 30px;
+    display: none;
+}
+
+.SetAddress {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -180px;
+    margin-left: -150px;
+}
+
+.ReallyAddress form input.on {
+    border: 1px solid #A10000;
+}
+
+.ReallyAddress form input {
+    border: 1px solid #e0e0e0;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 5px;
+}
+
+.ReallyAddress form input {
+    border: 1px solid #e0e0e0;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 5px;
+}
+
+.ReallyAddress form div.city select:nth-child(odd) {
+    margin-right: 10px;
+}
+
+.ReallyAddress form div.city select {
+    width: 142px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #E0E0E0;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.ReallyAddress form textarea {
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    text-indent: 5px;
+    margin-bottom: 15px;
+}
+
+.ReallyAddress form div.QorY {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ReallyAddress form div.QorY input:nth-child(1) {
+    background: #A10000;
+    color: #FFFFFF;
+}
+
+.OrderConfirm .OrderConfirmLeft .PostedWay span {
+    width: 136px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+}
+
+.OrderConfirm .OrderConfirmLeft .RealAddress.on {
+    border: 2px solid #C10000;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 20;
+    display: none;
+}
+
+
+/*****************         OrderConfirm     ********************/

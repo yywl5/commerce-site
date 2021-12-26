@@ -13,19 +13,120 @@
     <link rel="stylesheet" href="css/nav.css" />
   </head>
   <body>
-    <div class="a1" style="background-color: #cadefc">
-      <img src="./img/cf.jpg" alt="" />
-      <div>
-        <h1>水晶虾饺</h1>
-      </div>
+    <div>
+         
+      <video
+        id="TrueStart"
+        src="/video/video.mp4"
+        autoplay
+        loop
+        muted
+        type="mp4"
+      ></video>
     </div>
-    <div class="a1 l" style="background-color: #fcbad3">
-      <img src="/img/cf.jpg" alt="" />
-      <div>
-        <h1>肠粉</h1>
-      </div>
+    <div id="Start">
+      <div class="StartOfBegin">↓</div>
+      <div class="StartOfBegin">向下滑动</div>
     </div>
-    <div id="Nav">
+    <header>
+      <div class="a1">
+        <div class="card">
+          <div class="cover">
+            <img src="/img/product-2.jpg" alt="" />
+          </div>
+          <div class="details">
+            <div>
+              <img src="/img/product-2.jpg" alt="" />
+              <h3>鞋</h3>
+              <h2><sup>$</sup>450</h2>
+              <a href="#" id="Container1_Buy">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cover">
+            <img src="/img/product-2.jpg" alt="" />
+          </div>
+          <div class="details">
+            <div>
+              <img src="/img/product-2.jpg" alt="" />
+              <h3>鞋</h3>
+              <h2><sup>$</sup>450</h2>
+              <a href="#" id="Container1_Buy">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cover">
+            <img src="/img/product-2.jpg" alt="" />
+          </div>
+          <div class="details">
+            <div>
+              <img src="/img/product-2.jpg" alt="" />
+              <h3>鞋</h3>
+              <h2><sup>$</sup>450</h2>
+              <a href="#" id="Container1_Buy">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="a1 l">
+        <img src="img/CoffeeBackground.png" alt="" />
+        <div id="container5p">
+          <h2>热卖促销,爪哇咖啡!</h2>
+          <p class="container5_text">
+            <br />
+            爪哇咖啡产于印尼爪哇岛，属于阿拉比卡种咖啡。烘焙后苦味极强而香味极清淡，无酸味。爪哇咖啡的苦、醇，加上巧克力糖浆的甜浓，使爪哇咖啡更甘醇顺口，很受女性欢迎！<br />爪哇咖啡豆有着一种清苦的体会，清涩如同生活，而苦味却是人生之中的必需，停在舌根的末香则是一番对前尘彻底的回想。
+          </p>
+          <input type="text" value="点击购买" /><a href="">了解更多</a>
+          <div class="coffeeDiscount"></div>
+        </div>
+        <div class="container5">
+          <div class="plate5"></div>
+          <div class="cup5">
+            <div class="top5">
+              <div class="vapour5">
+                <span style="--i: 1"></span>
+                <span style="--i: 3"></span>
+                <span style="--i: 5"></span>
+                <span style="--i: 13"></span>
+                <span style="--i: 20"></span>
+                <span style="--i: 6"></span>
+                <span style="--i: 7"></span>
+                <span style="--i: 10"></span>
+                <span style="--i: 8"></span>
+                <span style="--i: 17"></span>
+                <span style="--i: 11"></span>
+                <span style="--i: 12"></span>
+                <span style="--i: 14"></span>
+                <span style="--i: 15"></span>
+                <span style="--i: 16"></span>
+                <span style="--i: 2"></span>
+                <span style="--i: 9"></span>
+                <span style="--i: 18"></span>
+                <span style="--i: 4"></span>
+                <span style="--i: 19"></span>
+              </div>
+              <div class="circle5">
+                <div class="tea5"></div>
+              </div>
+            </div>
+            <div class="second5"></div>
+            <div class="handle5">
+              <div class="handle_top"></div>
+              <div class="handle_bottom"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="a1 l"></div>
+    </header>
+    <div id="navigator"></div>
+    <!--搜索框下拉文字-->
+    <!--主题-->
+    <div id="MainText">星包客商城</div>
+    <!--主题-->
+    <main id="MainContent">
       <!--顶部导航栏.-->
       <div class="top-nav">
         <div class="w clearfix">
@@ -53,9 +154,9 @@
       <div class="bottom-nav w">
         <ul class="Center clearfix" id="bott">
           <li><a href="index.html">首页</a></li>
-          <li>
+          <li class="LiDisplay2" id="LiDisplay2">
             <a href="#">所有商品</a>
-            <div class="sList">
+            <div class="sList" id="sList">
               <div class="wrapper clearfix">
                 <a href="paint.html">
                   <dl>
@@ -91,32 +192,29 @@
             </div>
           </li>
           <li>
-            <a href="flowerDer.html">装饰摆件</a>
+            <a href="flowerDer.html">聚划算</a>
             <div class="sList2">
               <div class="clearfix">
-                <a href="proList.html">干花花艺</a>
+                <a href="proList.html">星包客超市</a>
                 <a href="vase_proList.html">花瓶花器</a>
               </div>
             </div>
           </li>
           <li>
-            <a href="decoration.html">布艺软饰</a>
+            <a href="decoration.html">天天特卖</a>
             <div class="sList2">
               <div class="clearfix">
-                <a href="zbproList.html">桌布罩件</a>
-                <a href="bzproList.html">抱枕靠垫</a>
+                <a href="zbproList.html">星包客旅行</a>
+                <a href="bzproList.html">星包客超市</a>
               </div>
             </div>
           </li>
-          <li><a href="paint.html">墙式壁挂</a></li>
-          <li><a href="perfume.html">蜡艺香薰</a></li>
-          <li><a href="idea.html">创意家居</a></li>
+          <li><a href="paint.html">星包客超市</a></li>
+          <li><a href="perfume.html">智能生活</a></li>
+          <li><a href="idea.html">手机特卖</a></li>
         </ul>
       </div>
       <!--顶部导航栏.-->
-    </div>
-    <!--搜索框下拉文字-->
-    <main id="Main">
       <!--搜索框下拉文字-->
       <div class="searchWrap">
         <div class="w">
@@ -613,6 +711,52 @@
             </div>
           </div>
         </div>
+        <div class="footer-links">
+          <dl class="col-links">
+            <dt>帮助中心</dt>
+            <dd><a href="javascript:;">购物指南</a></dd>
+            <dd><a href="javascript:;">支付方式</a></dd>
+            <dd><a href="javascript:;">配送方式</a></dd>
+          </dl>
+          <dl class="col-links">
+            <dt>服务支持</dt>
+            <dd><a href="javascript:;">售后政策</a></dd>
+            <dd><a href="javascript:;">自助服务</a></dd>
+            <dd><a href="javascript:;">相关下载</a></dd>
+          </dl>
+          <dl class="col-links">
+            <dt>星包之家</dt>
+            <dd><a href="javascript:;">星包之家</a></dd>
+            <dd><a href="javascript:;">服务网点</a></dd>
+            <dd><a href="javascript:;">预约亲临到店服务</a></dd>
+          </dl>
+          <dl class="col-links">
+            <dt>关于星包客</dt>
+            <dd><a href="javascript:;">了解星包客</a></dd>
+            <dd><a href="javascript:;">加入星包客</a></dd>
+            <dd><a href="javascript:;">联系我们</a></dd>
+          </dl>
+          <dl class="col-links">
+            <dt>关注我们</dt>
+            <dd><a href="javascript:;">新浪微博</a></dd>
+            <dd><a href="javascript:;">星包客部落</a></dd>
+            <dd><a href="javascript:;">官方微信</a></dd>
+          </dl>
+          <dl class="col-links">
+            <dt>特色服务</dt>
+            <dd><a href="javascript:;">F码通道</a></dd>
+            <dd><a href="javascript:;">星包客移动</a></dd>
+            <dd><a href="javascript:;">防伪查询</a></dd>
+          </dl>
+          <div class="col-contact">
+            <p class="phone">400-100-5678</p>
+            <p class="time">周一至周日 8:00-18:00<br>（仅收市话费）</p>
+            <a href="javascript:;" class="btn-gm">
+              <i class="icon iconfont10">&#xe9e2;</i>
+               24小时在线客服
+            </a>
+          </div>
+        </div>
         <div class="footer_container w">
           <div class="footer_social">
             <a href=""><img src="img/camscanner.png" alt="官方微博" /></a>
@@ -636,19 +780,60 @@
       </div>
     </main>
     <div class="tool">
-      <a href="#miaosha" class="tool-item1">秒杀<br /><br /><br /></a>
-      <a href="#hotsale" class="tool-item2">热卖单品<br /><br /><br /></a>
-      <a href="#guessLike" class="tool-item3">猜你喜欢<br /><br /><br /></a>
-      <a id="goTop" href="#tool-item4" onclick="goTop()"
+     <a href="#TrueStart" class="tool-item1">商品促销<br /><br /><br /></a>
+      <a href="#miaosha" class="tool-item2">秒杀<br /><br /><br /></a>
+      <a href="#hotsale" class="tool-item3">热卖单品<br /><br /><br /></a>
+      <a href="#guessLike" class="tool-item4">猜你喜欢<br /><br /><br /></a>
+      <a id="goTop" href="#tool-item5" onclick="goTop()"
         ><span class="top-arrow">顶部</span></a
       >
-      <a class="tool-item5">反馈</a>
+      <a class="tool-item6">反馈</a>
     </div>
     <!--底部版权信息-->
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
-    <script src="Javascript/animation.js"></script>
     <script src="Javascript/ajax.js"></script>
     <script src="Javascript/index.js"></script>
-    <script src="Javascript/public.js"></script>
+    <!-- <script>
+      $(function () {
+        $(".bottom-nav ul>li").hover(function () {
+          var alength = $(this).children().length;
+          if (alength != 1) {
+            $(this)
+              .children("div")
+              .stop()
+              .slideToggle(200)
+              .end()
+              .siblings()
+              .children("div")
+              .hide();
+          } else {
+            $(this).children("div").hide();
+          }
+        });
+      });
+    </script>
+-->
+    <script src="Javascript/index_Animation.js"></script>
+    <script>
+      document.getElementById("LiDisplay2").onmouseover = function () {
+        document.getElementById("sList").style.display = "block";
+        console.log("yes2");
+      };
+      document.getElementById("LiDisplay2").onmouseout = function () {
+        document.getElementById("sList").style.display = "none";
+        console.log("yes2");
+      };
+    </script>
+    <script>
+      var text = document.querySelector(".container5_text");
+      text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>");
+
+      var letters = document.querySelectorAll("span");
+      for (let i = 0; i < letters.length; i++) {
+        letters[i].addEventListener("mouseover", function () {
+          letters[i].classList.add("active");
+        });
+      }
+    </script>
   </body>
 </html>

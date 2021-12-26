@@ -32,7 +32,7 @@
 
 html,
 body {
-    overflow: hidden;
+    overflow: none;
 }
 
 a {

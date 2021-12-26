@@ -104,3 +104,67 @@
 .footer_link li a:hover {
     text-decoration: underline;
 }
+
+.footer-links {
+    width: 100%;
+    height: 170px;
+    padding: 25px 0;
+    display: flex;
+    position: relative;
+    text-decoration-color: #000;
+    justify-content: end;
+}
+
+.footer-links .col-links {
+    width: 160px;
+    height: 100px;
+    margin: 15px;
+    color: #000;
+    border-left: 1px solid #e0e0e0;
+}
+
+.footer-links .col-links dt {
+    margin: -1px 0 20px;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #424242;
+    font-weight: bold;
+}
+
+.footer-links .col-links dd {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #757575;
+}
+
+.footer-links .col-links dd a {
+    color: #242424;
+    font-size: 14px;
+}
+
+.footer-links .col-links dd a:hover {
+    color: #ff6700;
+}
+
+.footer-links .col-contact {
+    float: right;
+    width: 242px;
+    height: 112px;
+    border-left: 1px solid #e0e0e0;
+    color: #616161;
+    text-align: center;
+}
+
+.footer-links .col-contact .phone {
+    margin: 0 0 5px;
+    font-size: 22px;
+    line-height: 1;
+    color: #ff6700;
+}
+
+.footer-links .col-contact .time {
+    margin: 0 0 16px;
+    font-size: 12px;
+    color: #616161;
+    text-align: center;
+}
